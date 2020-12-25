@@ -1,0 +1,98 @@
+body{
+  background-color: Lightyellow;
+}
+
+h2 {
+  font-family: Castoro;
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  font-family: Castoro;
+  text-align: center;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+button{
+  font-family: Castoro;
+  font-size: 1.5rem;
+  background-color: Red;
+  color: White;
+  padding: 0 50px;
+  border: Solid Red 2px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background: Transparent;
+  color: Red;
+}
+
+table{
+  padding: 25px 50px;
+}
+
+td {
+  font-family: Castoro;
+  width: 400px;
+}
+
+th{
+  font-family: Castoro;
+  font-size: 1.25rem;
+}
+
+img{
+  width: 15%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+input {
+  background: Transparent;
+  border: 0;
+  font-family: Castoro;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 400px;
+  padding: 0;
+}
+
+input:focus {
+  outline: inherit;
+}
+
+.flex{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-table {
+  text-align: center;
+  border: Black Solid 1px;
+  margin: 0 50px;
+}
+.middle-table td{
+  width: 200px;
+}
+.middle-table input{
+  text-align: center;
+  width: 200px;
+}
+
+.last-table{
+  text-align: center;
+  margin: auto;
+}
+
+.last-table input{
+  text-align: center;
+}
+.footer{
+  color: Blue;
+}
